@@ -1,29 +1,39 @@
-# Student-Management-System-using-DSA-in-C
-Student Management System Project using DSA in C
+Student Data Management System
 
-This is a DSA project using C programming language. There are multiple data stuctures used in this project like stuctures , arrays , file handleing , algorithms like Brute Force String Matching Algorithm for login console , Binary Search for searching a student from student ID , showing all the recorded students using sorting algorithms etc.
+This is a Python command-line application for managing student records and their courses. It includes a secure login system, input validation, and a user-friendly interface.
 
-This is the Welcome screen for the project.
+Features:
 
-![image](https://github.com/Arun12311/Student-Management-System-using-DSA-in-C/assets/108878412/5e748963-3d2e-421e-96fd-0a7ce77b5387)
+Login system with predefined users
 
-Login Screen :
+Add, view, search, edit, and delete student records
 
-![image](https://github.com/Arun12311/Student-Management-System-using-DSA-in-C/assets/108878412/6e6e12aa-c36f-4f74-bb86-0ad82a6cb073)
+Track student ID, roll number, name, email, phone number, and courses
 
-Multiple Features :
+Assign multiple courses per student with validation
 
-![image](https://github.com/Arun12311/Student-Management-System-using-DSA-in-C/assets/108878412/4483e7ba-f4ab-44fc-b614-79bedace5b31)
+Prevents duplicate entries for ID, email, phone, and roll number
 
-All students info. in Table format :
+Validates course codes and names
 
-![image](https://github.com/Arun12311/Student-Management-System-using-DSA-in-C/assets/108878412/d68be6dd-547b-4be3-8911-6ce626f2957a)
+Clear and navigable menu with ASCII welcome header
 
-Searching a student by student ID :
+Technologies used: Python 3, standard libraries (os, sys, re), and local text files for storage
 
-![image](https://github.com/Arun12311/Student-Management-System-using-DSA-in-C/assets/108878412/66860a8f-7fe3-406e-85d7-7625385d470b)
+To use the application, run the main Python file. Log in using one of the predefined usernames and passwords. Use the menu to perform operations on student records and courses.
 
-Adding new Student :
+Input validations:
 
-![image](https://github.com/Arun12311/Student-Management-System-using-DSA-in-C/assets/108878412/0a315e45-49b2-4965-8c53-cc39c3665d7a)
+ID: maximum 10 characters, unique
 
+Roll number: positive integer, unique
+
+Name: maximum 20 characters
+
+Email: valid format, unique
+
+Phone: digits only, 7 to 20 characters, unique
+
+Courses: 1 to 4 courses per student, validated code and name
+
+Contributors: Dhruva Konapala, Amarnath Pittu, Balaji Ravulapalli
