@@ -36,4 +36,4 @@ Phone: digits only, 7 to 20 characters, unique
 
 Courses: 1 to 4 courses per student, validated code and name
 
-Contributors: Dhruva Konapala, Amarnath Pittu, Balaji Ravulapalli
+Contributors: Dhruva Konapala, Amarnath Pittu, Balaji Ravulapalli,Chandini Shaik
