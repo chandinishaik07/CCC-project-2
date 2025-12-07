@@ -43,7 +43,7 @@ def display_header():
                     *             1. Konapala Dhruva                *
                     *             2. Pittu Amarnath                 *
                     *             3. Ravulapalli Balaji             *
-                    *             4. Chandini Sheik                 *
+                    *             4. Chandini Shaik                 *
                     *************************************************
 """)
     pause()
